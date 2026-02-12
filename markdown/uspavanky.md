@@ -3,7 +3,7 @@ title: Uspávanky
 lang: sk-SK
 ---
 
-# Sedemdesiat sukieň mala
+## Sedemdesiat sukieň mala
 
 Sedemdesiat sukieň mala,\
 a predsa sa nevydala.\
@@ -20,7 +20,7 @@ Pod oblôčkom vyskakoval,\
 \[:dajte mi to, dievča, dievča vaše,\
 a ja vám dám štyri groše.:]
 
-# Búvaj, dieťa krásne
+## Búvaj, dieťa krásne
 
 Búvaj, dieťa krásne, uložené v jasle.\
 Búvaj, búvaj pachoľa, milostivé Jezuľa!\
@@ -40,7 +40,7 @@ Aj vy milé fialky, zaváňajte do diaľky,\
 zavejte mu vône, pánovi na tróne,\
 ticho sladúčko, ticho sladúčko.
 
-# Bola raz malá hviezdička
+## Bola raz malá hviezdička
 
 Bola raz malá, malá hviezdička,\
 Zviedla ju mliečna, mliečna cestička.\
@@ -62,7 +62,7 @@ zviedla ju mliečna, mliečna cestička.\
 Umrela hviezda maličká,\
 končí sa o nej pesnička.
 
-# Tam kde vietor severný
+## Tam kde vietor severný
 
 Tam, kde vietor severný,\
 s riekou k moriam nesú detské sny,\
@@ -84,7 +84,7 @@ fúka nocou pár snov tajomných,\
 čo je cenné, to si stráž,\
 veď vieš, že tu svoj domov máš.
 
-# O zvieratkách
+## O zvieratkách
 
 Pozerá sa zajko zvedavý,\
 čo to naňho padá do trávy.\
