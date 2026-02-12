@@ -46,11 +46,11 @@ jobs:
               --output "dist/${stem}.epub"
 
             ebook-convert "dist/${stem}.epub" "dist/${stem}.mobi"
-            ebook-convert "dist/${stem}.epub" "dist/${stem}.azw"
+            ebook-convert "dist/${stem}.epub" "dist/${stem}.azw3"
 
             echo "Built dist/${stem}.epub"
             echo "Built dist/${stem}.mobi"
-            echo "Built dist/${stem}.azw"
+            echo "Built dist/${stem}.azw3"
           done
 
       - name: Capture build timestamp
