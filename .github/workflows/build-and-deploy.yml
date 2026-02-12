@@ -1,4 +1,4 @@
-name: Build and Deploy EPUBs
+name: Build and Deploy Kindle Files
 
 on:
   push:
@@ -25,12 +25,12 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Install pandoc
+      - name: Install conversion dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc
+          sudo apt-get install -y pandoc calibre
 
-      - name: Build EPUB files
+      - name: Build Kindle files
         shell: bash
         run: |
           set -euo pipefail
@@ -44,7 +44,13 @@ jobs:
               --toc \
               --metadata=lang:en-US \
               --output "dist/${stem}.epub"
+
+            ebook-convert "dist/${stem}.epub" "dist/${stem}.mobi"
+            ebook-convert "dist/${stem}.epub" "dist/${stem}.azw"
+
             echo "Built dist/${stem}.epub"
+            echo "Built dist/${stem}.mobi"
+            echo "Built dist/${stem}.azw"
           done
 
       - name: Capture build timestamp
