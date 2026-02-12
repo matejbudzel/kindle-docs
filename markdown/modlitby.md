@@ -1,9 +1,9 @@
 ---
-title: Vyznania viery
+title: Modlitby
 lang: sk-SK
 ---
 
-# Otčenáš
+## Otčenáš
 
 Otče náš, ktorý si na nebesiach,\
 posväť sa meno tvoje,\
@@ -16,7 +16,7 @@ a neuveď nás do pokušenia,\
 ale zbav nás zlého.\
 Amen.
 
-# Pater noster
+## Pater noster
 
 **"Otčenáš" po latinsky**
 
@@ -31,7 +31,7 @@ et ne nos indúcas in tentatiónem;\
 sed líbera nos a malo.\
 Amen.
 
-# Apoštolské vyznanie viery
+## Apoštolské vyznanie viery
 
 Verím v Boha, Otca všemohúceho, Stvoriteľa neba i zeme,\
 i v Ježiša Krista, jeho jediného Syna,\
@@ -45,7 +45,7 @@ v svätú Cirkev katolícku, v spoločenstvo svätých,\
 v odpustenie hriechov, vo vzkriesenie tela a v život večný.\
 Amen.
 
-# Symbolum Apostolicum 
+## Symbolum Apostolicum 
 
 **"Apoštolské vyznanie viery" po latinsky**
 
@@ -60,7 +60,7 @@ Et in Spíritum Sanctum, sanctam Ecclésiam cathólicam, sanctórum communiónem
 remissiónem peccatórum, carnis resurrectiónem, vitam ætérnam.\
 Amen.
 
-# Nicejsko-carihradské vyznanie viery
+## Nicejsko-carihradské vyznanie viery
 
 Verím v jedného Boha, Otca všemohúceho, Stvoriteľa neba i zeme, sveta viditeľného i neviditeľného.\
 Verím v jedného Pána Ježiša Krista, jednorodeného Syna Božieho, zrodeného z Otca pred všetkými vekmi;\
@@ -79,7 +79,7 @@ Vyznávam jeden krst na odpustenie hriechov\
 a očakávam vzkriesenie mŕtvych a život budúceho veku.\
 Amen.
 
-# Symbolum Nicænum Costantinopolitanum
+## Symbolum Nicænum Costantinopolitanum
 
 **"Nicejsko-carihradské vyznanie viery" po latinsky**
 
@@ -104,7 +104,7 @@ Confíteor unum Baptísma in remissiónem peccatórum.\
 Et exspécto resurrectiónem mortuórum, et vitam ventúri sæculi.\
 Amen.
 
-# Zdravas, Mária
+## Zdravas, Mária
 
 Zdravasʼ, Mária milosti plná,\
 Pán s tebou.\
@@ -115,7 +115,7 @@ pros za nás hriešnych teraz\
 i v hodinu smrti našej.\
 Amen.
 
-# Ave, Maria 
+## Ave, Maria 
 
 **"Zdravas, Mária" po latinsky**
 
@@ -125,13 +125,13 @@ Sancta María, Mater Dei, ora pro nobis peccatóribus,\
 nunc et in hora mortis nostra.\
 Amen.
 
-# Sláva Otcu
+## Sláva Otcu
 
 Sláva Otcu i Synu i Duchu Svätému,\
 ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov,\
 Amen.
 
-# Gloria Patri 
+## Gloria Patri 
 
 **"Sláva Otcu" po latinsky**
 
