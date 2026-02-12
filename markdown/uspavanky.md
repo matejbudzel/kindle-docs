@@ -20,6 +20,8 @@ Pod oblôčkom vyskakoval,\
 \[:dajte mi to, dievča, dievča vaše,\
 a ja vám dám štyri groše.:]
 
+\newpage
+
 ## Búvaj, dieťa krásne
 
 Búvaj, dieťa krásne, uložené v jasle.\
@@ -39,6 +41,8 @@ nech si ono podrieme na slame a na sene.\
 Aj vy milé fialky, zaváňajte do diaľky,\
 zavejte mu vône, pánovi na tróne,\
 ticho sladúčko, ticho sladúčko.
+
+\newpage
 
 ## Bola raz malá hviezdička
 
@@ -62,6 +66,8 @@ zviedla ju mliečna, mliečna cestička.\
 Umrela hviezda maličká,\
 končí sa o nej pesnička.
 
+\newpage
+
 ## Tam kde vietor severný
 
 Tam, kde vietor severný,\
@@ -83,6 +89,8 @@ Tam, kde vietor severný,\
 fúka nocou pár snov tajomných,\
 čo je cenné, to si stráž,\
 veď vieš, že tu svoj domov máš.
+
+\newpage
 
 ## O zvieratkách
 

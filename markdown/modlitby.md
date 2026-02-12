@@ -16,6 +16,8 @@ a neuveď nás do pokušenia,\
 ale zbav nás zlého.\
 Amen.
 
+\newpage
+
 ## Pater noster
 
 **"Otčenáš" po latinsky**
@@ -31,6 +33,8 @@ et ne nos indúcas in tentatiónem;\
 sed líbera nos a malo.\
 Amen.
 
+\newpage
+
 ## Apoštolské vyznanie viery
 
 Verím v Boha, Otca všemohúceho, Stvoriteľa neba i zeme,\
@@ -44,6 +48,8 @@ Verím v Ducha Svätého,\
 v svätú Cirkev katolícku, v spoločenstvo svätých,\
 v odpustenie hriechov, vo vzkriesenie tela a v život večný.\
 Amen.
+
+\newpage
 
 ## Symbolum Apostolicum 
 
@@ -59,6 +65,8 @@ inde ventúrus est iudicáre vivos et mórtuos.\
 Et in Spíritum Sanctum, sanctam Ecclésiam cathólicam, sanctórum communiónem,\
 remissiónem peccatórum, carnis resurrectiónem, vitam ætérnam.\
 Amen.
+
+\newpage
 
 ## Nicejsko-carihradské vyznanie viery
 
@@ -78,6 +86,8 @@ Verím v jednu, svätú, katolícku, apoštolskú Cirkev.\
 Vyznávam jeden krst na odpustenie hriechov\
 a očakávam vzkriesenie mŕtvych a život budúceho veku.\
 Amen.
+
+\newpage
 
 ## Symbolum Nicænum Costantinopolitanum
 
@@ -104,6 +114,8 @@ Confíteor unum Baptísma in remissiónem peccatórum.\
 Et exspécto resurrectiónem mortuórum, et vitam ventúri sæculi.\
 Amen.
 
+\newpage
+
 ## Zdravas, Mária
 
 Zdravasʼ, Mária milosti plná,\
@@ -115,6 +127,8 @@ pros za nás hriešnych teraz\
 i v hodinu smrti našej.\
 Amen.
 
+\newpage
+
 ## Ave, Maria 
 
 **"Zdravas, Mária" po latinsky**
@@ -125,11 +139,15 @@ Sancta María, Mater Dei, ora pro nobis peccatóribus,\
 nunc et in hora mortis nostra.\
 Amen.
 
+\newpage
+
 ## Sláva Otcu
 
 Sláva Otcu i Synu i Duchu Svätému,\
 ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov,\
 Amen.
+
+\newpage
 
 ## Gloria Patri 
 
