@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 from typing import Dict
 
-OUTPUT_EXTENSIONS = ("epub", "mobi", "azw")
+OUTPUT_EXTENSIONS = ("epub", "mobi", "azw3")
 
 
 def format_size(num_bytes: int) -> str:
@@ -106,7 +106,7 @@ def render_index(dist_dir: Path, markdown_dir: Path, out_file: Path) -> None:
   </head>
   <body>
     <h1>Kindle Download Formats</h1>
-    <p>Each title includes links to EPUB, MOBI, and AZW files.</p>
+    <p>Each title includes links to EPUB, MOBI, and AZW3 files.</p>
 
     <h2>Files</h2>
     <ul>
