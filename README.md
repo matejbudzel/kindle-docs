@@ -21,6 +21,21 @@ The workflow runs only when files under `markdown/` change (or when the workflow
 - Published files are available on your GitHub Pages site:
   - `index.html` lists each title and provides links to `.epub`, `.mobi`, and `.azw3`.
 
+## Web-based Codex setup
+
+If you want the same converter toolchain available in a web-based Codex environment, run:
+
+```bash
+./scripts/setup_codex_env.sh
+```
+
+Optional environment variables:
+
+- `PYTHON_VERSION` (default `3.12`): Python version to install/pin with `uv`
+- `INSTALL_PYTHON` (default `1`): set to `0` to skip `uv` Python installation
+
+The script installs the same core conversion dependencies used in CI (`pandoc` + `calibre`) and verifies the resulting toolchain.
+
 ## Markdown tips
 
 - File name determines output names: `markdown/my-book.md` -> `my-book.epub`, `my-book.mobi`, and `my-book.azw3`
