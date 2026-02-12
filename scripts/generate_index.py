@@ -7,6 +7,8 @@ import os
 from pathlib import Path
 from typing import Dict
 
+OUTPUT_EXTENSIONS = ("epub", "mobi", "azw")
+
 
 def format_size(num_bytes: int) -> str:
     if num_bytes < 1024:
@@ -54,7 +56,7 @@ def collect_titles(markdown_dir: Path) -> Dict[str, str]:
 
 def render_index(dist_dir: Path, markdown_dir: Path, out_file: Path) -> None:
     titles = collect_titles(markdown_dir)
-    epubs = sorted(dist_dir.glob("*.epub"), key=lambda p: p.name.lower())
+    markdown_files = sorted(markdown_dir.glob("*.md"), key=lambda p: p.name.lower())
 
     build_timestamp = os.getenv("BUILD_TIMESTAMP_UTC") or dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     commit_sha = os.getenv("GITHUB_SHA", "unknown")
@@ -66,19 +68,30 @@ def render_index(dist_dir: Path, markdown_dir: Path, out_file: Path) -> None:
         run_url = f"{server_url}/{repository}/actions/runs/{run_id}"
 
     rows = []
-    for epub in epubs:
-        stem = epub.stem
+    for markdown_file in markdown_files:
+        stem = markdown_file.stem
         name = titles.get(stem, stem)
-        size = format_size(epub.stat().st_size)
+        links = []
+
+        for ext in OUTPUT_EXTENSIONS:
+            generated_file = dist_dir / f"{stem}.{ext}"
+            if generated_file.exists():
+                size = format_size(generated_file.stat().st_size)
+                links.append(
+                    f'<a href="{html.escape(generated_file.name)}" download>{html.escape(ext.upper())}</a>'
+                    f" ({html.escape(size)})"
+                )
+            else:
+                links.append(f"{html.escape(ext.upper())} (missing)")
+
         rows.append(
             "<li>"
             f"<strong>{html.escape(name)}</strong>"
-            f" — <a href=\"{html.escape(epub.name)}\" download>{html.escape(epub.name)}</a>"
-            f" ({html.escape(size)})"
+            f" — {' | '.join(links)}"
             "</li>"
         )
 
-    list_markup = "\n      ".join(rows) if rows else "<li>No EPUB files were generated in this build.</li>"
+    list_markup = "\n      ".join(rows) if rows else "<li>No markdown files were found in this build.</li>"
 
     run_link = (
         f'<a href="{html.escape(run_url)}">{html.escape(run_id)}</a>' if run_url and run_id else "Unavailable"
@@ -89,11 +102,11 @@ def render_index(dist_dir: Path, markdown_dir: Path, out_file: Path) -> None:
   <head>
     <meta charset=\"utf-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-    <title>EPUB Downloads</title>
+    <title>Kindle Download Formats</title>
   </head>
   <body>
-    <h1>EPUB Downloads</h1>
-    <p>Download the latest EPUB files directly below.</p>
+    <h1>Kindle Download Formats</h1>
+    <p>Each title includes links to EPUB, MOBI, and AZW files.</p>
 
     <h2>Files</h2>
     <ul>
