@@ -1,0 +1,11 @@
+/* Keep heading spacing compact for e-readers that honor author CSS. */
+h1, h2, h3 {
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
