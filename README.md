@@ -40,7 +40,9 @@ The script installs the same core conversion dependencies used in CI (`pandoc` +
 
 - File name determines output names: `markdown/my-book.md` -> `my-book.epub`, `my-book.mobi`, and `my-book.azw3`
 - EPUB builds include a Table of Contents (`--toc`) for Kindle navigation, then Calibre converts the EPUB to the Kindle-specific formats.
+- `\newpage` directives in Markdown are converted to EPUB page breaks via `scripts/epub_pagebreak.lua`.
 - Language metadata is set to `en-US`.
+- EPUB output includes `styles/ebook.css` to keep heading/paragraph spacing compact where supported.
 - Optional: if a Markdown file has YAML frontmatter with `title`, it is used as the display name in `index.html`.
 
 Example frontmatter:

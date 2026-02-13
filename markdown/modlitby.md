@@ -3,7 +3,7 @@ title: Modlitby
 lang: sk-SK
 ---
 
-## Otčenáš
+# Otčenáš
 
 Otče náš, ktorý si na nebesiach,\
 posväť sa meno tvoje,\
@@ -18,7 +18,7 @@ Amen.
 
 \newpage
 
-## Pater noster
+# Pater noster
 
 **"Otčenáš" po latinsky**
 
@@ -35,7 +35,7 @@ Amen.
 
 \newpage
 
-## Apoštolské vyznanie viery
+# Apoštolské vyznanie viery
 
 Verím v Boha, Otca všemohúceho, Stvoriteľa neba i zeme,\
 i v Ježiša Krista, jeho jediného Syna,\
@@ -51,7 +51,7 @@ Amen.
 
 \newpage
 
-## Symbolum Apostolicum 
+# Symbolum Apostolicum 
 
 **"Apoštolské vyznanie viery" po latinsky**
 
@@ -68,7 +68,7 @@ Amen.
 
 \newpage
 
-## Nicejsko-carihradské vyznanie viery
+# Nicejsko-carihradské vyznanie viery
 
 Verím v jedného Boha, Otca všemohúceho, Stvoriteľa neba i zeme, sveta viditeľného i neviditeľného.\
 Verím v jedného Pána Ježiša Krista, jednorodeného Syna Božieho, zrodeného z Otca pred všetkými vekmi;\
@@ -89,7 +89,7 @@ Amen.
 
 \newpage
 
-## Symbolum Nicænum Costantinopolitanum
+# Symbolum Nicænum Costantinopolitanum
 
 **"Nicejsko-carihradské vyznanie viery" po latinsky**
 
@@ -116,7 +116,7 @@ Amen.
 
 \newpage
 
-## Zdravas, Mária
+# Zdravas, Mária
 
 Zdravasʼ, Mária milosti plná,\
 Pán s tebou.\
@@ -129,7 +129,7 @@ Amen.
 
 \newpage
 
-## Ave, Maria 
+# Ave, Maria 
 
 **"Zdravas, Mária" po latinsky**
 
@@ -141,7 +141,7 @@ Amen.
 
 \newpage
 
-## Sláva Otcu
+# Sláva Otcu
 
 Sláva Otcu i Synu i Duchu Svätému,\
 ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov,\
@@ -149,7 +149,7 @@ Amen.
 
 \newpage
 
-## Gloria Patri 
+# Gloria Patri 
 
 **"Sláva Otcu" po latinsky**
 

@@ -43,6 +43,8 @@ jobs:
               --to=epub3 \
               --toc \
               --metadata=lang:en-US \
+              --lua-filter=scripts/epub_pagebreak.lua \
+              --css=styles/ebook.css \
               --output "dist/${stem}.epub"
 
             ebook-convert "dist/${stem}.epub" "dist/${stem}.mobi"
