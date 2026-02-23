@@ -156,3 +156,50 @@ Amen.
 Glória Patri et Fílio et Spirítui Sancto.\
 Sicut erat in princípio, et nunc et semper et in saecula saculórum.\
 Amen
+
+\newpage
+
+# Radosť duše v Pánovi
+
+Velebí moja duša Pána\
+a môj duch jasá v Bohu, mojom Spasiteľovi,\
+lebo zhliadol na poníženosť svojej služobnice.\
+Hľa, od tejto chvíle blahoslaviť ma budú všetky pokolenia,\
+lebo veľké veci mi urobil ten, ktorý je mocný,\
+a sväté je jeho meno\
+a jeho milosrdenstvo z pokolenia na pokolenie\
+s tými, čo sa ho boja.\
+Ukázal silu svojho ramena,\
+rozptýlil tých, čo v srdci pyšne zmýšľajú.\
+Mocnárov zosadil z trónov\
+a povýšil ponížených.\
+Hladných nakŕmil dobrotami\
+a bohatých prepustil naprázdno.\
+Ujal sa Izraela, svojho služobníka,\
+lebo pamätá na svoje milosrdenstvo,\
+ako sľúbil našim otcom,\
+Abrahámovi a jeho potomstvu naveky.
+
+\newpage
+
+# Magnificat
+
+Magnificat anima mea Dominum,\
+et exsultavit spiritus meus in Deo salvatore meo,\
+quia respexit humilitatem ancillae suae.\
+Ecce enim ex hoc beatam me dicent omnes generationes,\
+quia fecit mihi magna,\
+qui potens est,\
+et sanctum nomen eius,\
+et misericordia eius in progenies et progenies\
+timentibus eum.\
+Fecit potentiam in brachio suo,\
+dispersit superbos mente cordis sui;\
+deposuit potentes de sede\
+et exaltavit humiles;\
+esurientes implevit bonis\
+et divites dimisit inanes.\
+Suscepit Israel puerum suum,\
+recordatus misericordiae,\
+sicut locutus est ad patres nostros,\
+Abraham et semini eius in saecula.
