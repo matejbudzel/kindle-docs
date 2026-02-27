@@ -118,3 +118,43 @@ Kukulienka ráno spod buka\
 dvakrát pekne deťom zakuká:\
 kuku-kuk, kuku-kuk\
 a už viacej ani muk.
+
+\newpage
+
+# Spievanky, spievanky
+
+Spievanky, spievanky, kdeže ste sa vzali?\
+Či ste spadli z neba, či ste rástli v háji.
+
+Z neba sme nespadli, v háji sme nerástli,\
+ale nás mládenci a dievčence našli.
+
+Zaspievaj slávičku, v zelenom hájičku\
+a ja si zaspievam cestou po chodníčku.
+
+Keď si ja zaspievam v ružomberskom poli,\
+hlas môj sa uderí o martinské zvony.
+
+O martinské zvony o tie biele domy,\
+o ten najbielejší, kde môj najmilejší.
+
+Robota, robota, na celý deň ťa mám,\
+nechce sa mi robiť, ak si nezaspievam.
+
+\newpage
+
+# Páslo Dievča Pávy
+
+Páslo dievča pávy\
+V tom zelenom háji\
+Prišli k nemu dva mládenci\
+Poď ty, dievča, s nami\
+Prišli k nemu dva mládenci\
+Poď ty, dievča, s nami
+
+A čože vy chcete?\
+Pravdu vy neviete\
+Nieto pre mňa viacej šťastia\
+Na tom šírom svete\
+Nieto pre mňa viacej šťastia\
+Na tom šírom svete
