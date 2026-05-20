@@ -91,6 +91,15 @@ Amen.
 
 \newpage
 
+# Pod tvoju ochranu
+
+Pod tvoju ochranu sa utiekame, svätá Božia Rodička, neodvracaj\
+zrak od našich prosieb, pomôž nám v núdzi a z každého\
+nebezpečenstva nás vysloboď, ty Panna slávna a požehnaná.\
+Amen.
+
+\newpage
+
 # Sláva Otcu
 
 Sláva Otcu i Synu i Duchu Svätému,\
@@ -195,6 +204,20 @@ Benedícta tu in muliéribus, et benedíctus fructus ventris tui, Iesus.\
 Sancta María, Mater Dei, ora pro nobis peccatóribus,\
 nunc et in hora mortis nostra.\
 Amen.
+
+\newpage
+
+# Sub tuum præsidium confugimus
+
+**"Pod tvoju ochranu" po latinsky**
+
+Sub tuum præsidium confugimus,\
+sancta Dei Genitrix.\
+Nostras deprecationes ne despicias\
+in necessitatibus,\
+sed a periculis cunctis\
+libera nos semper,\
+Virgo gloriosa et benedicta.
 
 \newpage
 
