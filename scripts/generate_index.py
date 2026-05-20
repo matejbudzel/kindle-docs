@@ -5,9 +5,20 @@ import datetime as dt
 import html
 import os
 from pathlib import Path
-from typing import Dict
+from typing import Dict, NamedTuple
 
-OUTPUT_EXTENSIONS = ("epub", "mobi", "azw3")
+
+class OutputFormat(NamedTuple):
+    extension: str
+    download: bool
+
+
+OUTPUT_FORMATS = (
+    OutputFormat("html", False),
+    OutputFormat("epub", True),
+    OutputFormat("mobi", True),
+    OutputFormat("azw3", True),
+)
 
 
 def format_size(num_bytes: int) -> str:
@@ -73,12 +84,14 @@ def render_index(dist_dir: Path, markdown_dir: Path, out_file: Path) -> None:
         name = titles.get(stem, stem)
         links = []
 
-        for ext in OUTPUT_EXTENSIONS:
+        for output_format in OUTPUT_FORMATS:
+            ext = output_format.extension
             generated_file = dist_dir / f"{stem}.{ext}"
             if generated_file.exists():
                 size = format_size(generated_file.stat().st_size)
+                download_attr = " download" if output_format.download else ""
                 links.append(
-                    f'<a href="{html.escape(generated_file.name)}" download>{html.escape(ext.upper())}</a>'
+                    f'<a href="{html.escape(generated_file.name)}"{download_attr}>{html.escape(ext.upper())}</a>'
                     f" ({html.escape(size)})"
                 )
             else:
@@ -102,11 +115,11 @@ def render_index(dist_dir: Path, markdown_dir: Path, out_file: Path) -> None:
   <head>
     <meta charset=\"utf-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-    <title>Kindle Download Formats</title>
+    <title>Document Formats</title>
   </head>
   <body>
-    <h1>Kindle Download Formats</h1>
-    <p>Each title includes links to EPUB, MOBI, and AZW3 files.</p>
+    <h1>Document Formats</h1>
+    <p>Each title includes a web-readable HTML page plus EPUB, MOBI, and AZW3 files.</p>
 
     <h2>Files</h2>
     <ul>

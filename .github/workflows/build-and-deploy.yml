@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - 'markdown/**'
+      - 'scripts/**'
+      - 'styles/**'
       - '.github/workflows/build-and-deploy.yml'
   workflow_dispatch:
 
@@ -47,10 +49,21 @@ jobs:
               --css=styles/ebook.css \
               --output "dist/${stem}.epub"
 
+            pandoc "$file" \
+              --to=html5 \
+              --standalone \
+              --toc \
+              --metadata=lang:en-US \
+              --lua-filter=scripts/epub_pagebreak.lua \
+              --css=styles/web.css \
+              --embed-resources \
+              --output "dist/${stem}.html"
+
             ebook-convert "dist/${stem}.epub" "dist/${stem}.mobi"
             ebook-convert "dist/${stem}.epub" "dist/${stem}.azw3"
 
             echo "Built dist/${stem}.epub"
+            echo "Built dist/${stem}.html"
             echo "Built dist/${stem}.mobi"
             echo "Built dist/${stem}.azw3"
           done

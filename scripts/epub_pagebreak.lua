@@ -1,4 +1,4 @@
--- Convert TeX page break directives to EPUB-compatible HTML page breaks.
+-- Convert TeX page break directives to HTML page breaks.
 local PAGEBREAK_HTML = '<p style="page-break-after: always;"> </p>'
 
 function RawBlock(el)
