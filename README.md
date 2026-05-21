@@ -7,8 +7,9 @@ This repository is set up to convert Markdown files in `markdown/` into web-read
 1. Add one or more `.md` files to `markdown/`.
 2. Push to `main`.
 3. GitHub Actions will:
-   - install `pandoc` and `calibre`
+   - install `pandoc`, `calibre`, and `imagemagick`
    - convert each `markdown/*.md` file to `dist/<filename>.html` and `dist/<filename>.epub`
+   - create `dist/<filename>-small.epub` for image-heavy EPUBs by downscaling embedded images to dithered grayscale JPEGs
    - convert each generated EPUB to `dist/<filename>.mobi` and `dist/<filename>.azw3`
    - generate `dist/index.html` with title names and direct links for all four formats
    - publish `dist/` to GitHub Pages using the official Pages deployment actions
@@ -16,10 +17,10 @@ The workflow runs only when files under `markdown/` change (or when the workflow
 
 ## Output
 
-- HTML, EPUB, MOBI, and AZW3 files are generated in `dist/` during CI.
+- HTML, EPUB, MOBI, and AZW3 files are generated in `dist/` during CI. Image-heavy EPUBs also get a smaller grayscale `-small.epub` variant.
 - `dist/` is intentionally ignored in git and is not committed.
 - Published files are available on your GitHub Pages site:
-  - `index.html` lists each title and provides links to `.html`, `.epub`, `.mobi`, and `.azw3`.
+  - `index.html` lists each title and provides links to `.html`, `.epub`, optional `-small.epub`, `.mobi`, and `.azw3`.
 
 ## Web-based Codex setup
 
@@ -34,11 +35,11 @@ Optional environment variables:
 - `PYTHON_VERSION` (default `3.12`): Python version to install/pin with `uv`
 - `INSTALL_PYTHON` (default `1`): set to `0` to skip `uv` Python installation
 
-The script installs the same core conversion dependencies used in CI (`pandoc` + `calibre`) and verifies the resulting toolchain.
+The script installs the same core conversion dependencies used in CI (`pandoc`, `calibre`, and `imagemagick`) and verifies the resulting toolchain.
 
 ## Markdown tips
 
-- File name determines output names: `markdown/my-book.md` -> `my-book.html`, `my-book.epub`, `my-book.mobi`, and `my-book.azw3`
+- File name determines output names: `markdown/my-book.md` -> `my-book.html`, `my-book.epub`, optional `my-book-small.epub`, `my-book.mobi`, and `my-book.azw3`
 - EPUB builds include a Table of Contents (`--toc`) for Kindle navigation, then Calibre converts the EPUB to the Kindle-specific formats.
 - HTML builds are standalone pages with embedded CSS, so each file can be opened directly from GitHub Pages.
 - `\newpage` directives in Markdown are converted to EPUB page breaks via `scripts/epub_pagebreak.lua`.

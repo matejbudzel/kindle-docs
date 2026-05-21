@@ -30,7 +30,7 @@ jobs:
       - name: Install conversion dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc calibre
+          sudo apt-get install -y pandoc calibre imagemagick
 
       - name: Build Kindle files
         shell: bash
@@ -59,10 +59,15 @@ jobs:
               --embed-resources \
               --output "dist/${stem}.html"
 
+            python3 scripts/make_small_epub.py "dist/${stem}.epub" "dist/${stem}-small.epub"
+
             ebook-convert "dist/${stem}.epub" "dist/${stem}.mobi"
             ebook-convert "dist/${stem}.epub" "dist/${stem}.azw3"
 
             echo "Built dist/${stem}.epub"
+            if [[ -f "dist/${stem}-small.epub" ]]; then
+              echo "Built dist/${stem}-small.epub"
+            fi
             echo "Built dist/${stem}.html"
             echo "Built dist/${stem}.mobi"
             echo "Built dist/${stem}.azw3"

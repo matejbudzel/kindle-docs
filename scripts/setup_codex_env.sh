@@ -35,10 +35,11 @@ install_apt_deps() {
   log "Updating apt metadata"
   run_root apt-get update
 
-  log "Installing required OS packages (pandoc, calibre, python tooling, unzip)"
+  log "Installing required OS packages (pandoc, calibre, imagemagick, python tooling, unzip)"
   run_root apt-get install -y --no-install-recommends \
     pandoc \
     calibre \
+    imagemagick \
     python3 \
     python3-venv \
     python3-pip \
@@ -96,6 +97,15 @@ verify_tools() {
       return 1
     fi
   done
+
+  if have_cmd magick; then
+    magick --version | head -n 1
+  elif have_cmd convert; then
+    convert --version | head -n 1
+  else
+    log "ERROR: missing required tool: ImageMagick"
+    return 1
+  fi
 
   if [ -d .venv ]; then
     log "Virtual environment detected at .venv"

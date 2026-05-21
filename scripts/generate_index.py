@@ -9,15 +9,17 @@ from typing import Dict, NamedTuple
 
 
 class OutputFormat(NamedTuple):
-    extension: str
+    suffix: str
+    label: str
     download: bool
 
 
 OUTPUT_FORMATS = (
-    OutputFormat("html", False),
-    OutputFormat("epub", True),
-    OutputFormat("mobi", True),
-    OutputFormat("azw3", True),
+    OutputFormat(".html", "HTML", False),
+    OutputFormat(".epub", "EPUB", True),
+    OutputFormat("-small.epub", "SMALL EPUB", True),
+    OutputFormat(".mobi", "MOBI", True),
+    OutputFormat(".azw3", "AZW3", True),
 )
 
 
@@ -85,17 +87,16 @@ def render_index(dist_dir: Path, markdown_dir: Path, out_file: Path) -> None:
         links = []
 
         for output_format in OUTPUT_FORMATS:
-            ext = output_format.extension
-            generated_file = dist_dir / f"{stem}.{ext}"
+            generated_file = dist_dir / f"{stem}{output_format.suffix}"
             if generated_file.exists():
                 size = format_size(generated_file.stat().st_size)
                 download_attr = " download" if output_format.download else ""
                 links.append(
-                    f'<a href="{html.escape(generated_file.name)}"{download_attr}>{html.escape(ext.upper())}</a>'
+                    f'<a href="{html.escape(generated_file.name)}"{download_attr}>{html.escape(output_format.label)}</a>'
                     f" ({html.escape(size)})"
                 )
-            else:
-                links.append(f"{html.escape(ext.upper())} (missing)")
+            elif output_format.suffix != "-small.epub":
+                links.append(f"{html.escape(output_format.label)} (missing)")
 
         rows.append(
             "<li>"
@@ -119,7 +120,7 @@ def render_index(dist_dir: Path, markdown_dir: Path, out_file: Path) -> None:
   </head>
   <body>
     <h1>Document Formats</h1>
-    <p>Each title includes a web-readable HTML page plus EPUB, MOBI, and AZW3 files.</p>
+    <p>Each title includes a web-readable HTML page plus EPUB, MOBI, and AZW3 files. Image-heavy titles may also include a smaller grayscale EPUB for low-power e-ink readers.</p>
 
     <h2>Files</h2>
     <ul>
