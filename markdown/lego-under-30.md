@@ -8,19 +8,7 @@ subject: "Current LEGO sets under 30 EUR and 30 USD"
 
 # LEGO under 30 catalogue
 
-Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available non-DUPLO LEGO sets under 30 EUR for en-sk and under 30 USD for en-us.
-
-## Frozen Creative Box with Elsa and Olaf
-
-<img src="https://www.lego.com/cdn/cs/set/assets/bltf03ea3cd1c79de7d/blteed6450f808f83fc-10462_Prod_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="Frozen Creative Box with Elsa and Olaf" width="240" />
-
-- Set number: 10462
-- Price: 19.99 EUR
-- Locale: en-sk
-- [Product page](<https://www.lego.com/en-sk/product/frozen-creative-box-with-elsa-and-olaf-10462>)
-- Theme: Disney™
-- Type: Set
-- Availability: Pre-order this item today, it will ship from 1 June 2026
+Generated at 2026-05-21T07:41:20.347Z. This is a snapshot of currently available non-DUPLO LEGO sets under 30 EUR for en-sk and under 30 USD for en-us.
 
 ## Ultron vs. Iron Man
 
@@ -51,12 +39,12 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 <img src="https://www.lego.com/cdn/cs/set/assets/bltdd152aeb2b4e5e03/bltefc4edaf26649b82-11216_Prod_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="Grannies with Bingo and Bluey" width="240" />
 
 - Set number: 11216
-- Price: 14.99 USD
-- Locale: en-us
-- [Product page](<https://www.lego.com/en-us/product/grannies-with-bingo-and-bluey-11216>)
+- Price: 14.99 EUR
+- Locale: en-sk
+- [Product page](<https://www.lego.com/en-sk/product/grannies-with-bingo-and-bluey-11216>)
 - Theme: Bluey
 - Type: Set
-- Availability: Pre-order this item today, it will ship from June 1, 2026
+- Availability: Pre-order this item today, it will ship from 1 June 2026
 
 ## School with Rusty and Bluey
 
@@ -81,18 +69,6 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 - Theme: Botanicals
 - Type: Set
 - Availability: Available now
-
-## Water Lilies
-
-<img src="https://www.lego.com/cdn/cs/set/assets/blta24fb4240d01af9c/blt94b7e5a40e9cda89-11511_Prod_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="Water Lilies" width="240" />
-
-- Set number: 11511
-- Price: 29.99 USD
-- Locale: en-us
-- [Product page](<https://www.lego.com/en-us/product/water-lilies-11511>)
-- Theme: Botanicals
-- Type: Set
-- Availability: Coming Soon on June 1, 2026
 
 ## Cosmos Flowers
 
@@ -126,6 +102,18 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 - Price: 24.99 EUR
 - Locale: en-sk
 - [Product page](<https://www.lego.com/en-sk/product/chicken-jockey-desert-attack-21592>)
+- Theme: Minecraft®
+- Type: Set
+- Availability: Pre-order this item today, it will ship from 1 June 2026
+
+## First Night Adventure
+
+<img src="https://www.lego.com/cdn/cs/set/assets/bltfa732ea0963a7209/bltb130513e7871ac5d-21593_Prod_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="First Night Adventure" width="240" />
+
+- Set number: 21593
+- Price: 29.99 EUR
+- Locale: en-sk
+- [Product page](<https://www.lego.com/en-sk/product/first-night-adventure-21593>)
 - Theme: Minecraft®
 - Type: Set
 - Availability: Pre-order this item today, it will ship from 1 June 2026
@@ -210,7 +198,7 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 - Price: 24.99 EUR
 - Locale: en-sk
 - [Product page](<https://www.lego.com/en-sk/product/supply-llama-fishstick-figures-40881>)
-- Theme: LEGO® Fortnite
+- Theme: BrickHeadz
 - Type: Set
 - Availability: Available now
 
@@ -237,18 +225,6 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 - Theme: BrickHeadz
 - Type: Set
 - Availability: Coming Soon on 1 June 2026
-
-## London Bus
-
-<img src="https://www.lego.com/cdn/cs/set/assets/bltd6293181d4b95a97/blt16fa51a2cdd03d34-40953_Prod_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="London Bus" width="240" />
-
-- Set number: 40953
-- Price: 19.99 EUR
-- Locale: en-sk
-- [Product page](<https://www.lego.com/en-sk/product/london-bus-40953>)
-- Theme: Other
-- Type: Set
-- Availability: Available now
 
 ## Germany Postcard
 
@@ -525,30 +501,6 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 - Type: Set
 - Availability: Pre-order this item today, it will ship from 1 June 2026
 
-## Series 29 6 Pack
-
-<img src="https://www.lego.com/cdn/cs/set/assets/blt461255d9fefbb69d/bltc62bb6880547f36f-66814_Box1_v39_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="Series 29 6 Pack" width="240" />
-
-- Set number: 66814
-- Price: 29.94 USD
-- Locale: en-us
-- [Product page](<https://www.lego.com/en-us/product/series-29-6-pack-66814>)
-- Theme: Minifigures
-- Type: Set
-- Availability: Will ship in 60 days
-
-## Series 29
-
-<img src="https://www.lego.com/cdn/cs/set/assets/bltd96c757178715939/bltb0549d82daa2d4ff-71052_Prod_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="Series 29" width="240" />
-
-- Set number: 71052
-- Price: 3.99 EUR
-- Locale: en-sk
-- [Product page](<https://www.lego.com/en-sk/product/series-29-71052>)
-- Theme: Minifigures
-- Type: Set
-- Availability: Available now
-
 ## Jay's Dragon Mech Fight
 
 <img src="https://www.lego.com/cdn/cs/set/assets/blt273017c67b5d6a4b/71853_Prod.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="Jay's Dragon Mech Fight" width="240" />
@@ -617,7 +569,7 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 - Price: 29.99 EUR
 - Locale: en-sk
 - [Product page](<https://www.lego.com/en-sk/product/batman-v-superman-batmobile-76331>)
-- Theme: DC
+- Theme: Batman™
 - Type: Set
 - Availability: Available now
 
@@ -645,18 +597,6 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 - Type: Set
 - Availability: Available now
 
-## Dobby™ the Free Elf
-
-<img src="https://www.lego.com/cdn/cs/set/assets/bltad700a75d2fe47e4/blt46c340d866ff0c2f-76469_Prod_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="Dobby™ the Free Elf" width="240" />
-
-- Set number: 76469
-- Price: 29.99 USD
-- Locale: en-us
-- [Product page](<https://www.lego.com/en-us/product/dobby-the-free-elf-76469>)
-- Theme: Harry Potter™
-- Type: Set
-- Availability: Coming Soon on June 1, 2026
-
 ## Forbidden Forest™: Expecto Patronum
 
 <img src="https://www.lego.com/cdn/cs/set/assets/blta87996055b7bff1f/blt601a52db5f25d635-76475_Prod_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="Forbidden Forest™: Expecto Patronum" width="240" />
@@ -680,18 +620,6 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 - Theme: LEGO® Fortnite
 - Type: Set
 - Availability: Pre-order this item today, it will ship from 1 June 2026
-
-## Tails' Tornado-1
-
-<img src="https://www.lego.com/cdn/cs/set/assets/blt7e72ff3e9c657ddd/blta706735cfb9575c0-77119_Prod_en-gb.png?fit=bounds&amp;format=jpg&amp;quality=80&amp;width=320&amp;height=320&amp;dpr=1" alt="Tails' Tornado-1" width="240" />
-
-- Set number: 77119
-- Price: 29.99 EUR
-- Locale: en-sk
-- [Product page](<https://www.lego.com/en-sk/product/tails-tornado-1-77119>)
-- Theme: LEGO® Sonic the Hedgehog™
-- Type: Set
-- Availability: Pre-order this item today, it will ship from 1 August 2026
 
 ## F1 ACADEMY™ LEGO® Race Car
 
@@ -770,19 +698,22 @@ Generated at 2026-05-21T07:20:59.068Z. This is a snapshot of currently available
 
 ## Newly added this week
 
-| set number | name | price | locale |
-|---|---|---:|---|
-| 11216 | Grannies with Bingo and Bluey | 14.99 USD | en-us |
+_None_
 
 ## Removed since last run
 
 | set number | name | price | locale |
 |---|---|---:|---|
+| 10462 | Frozen Creative Box with Elsa and Olaf | 19.99 EUR | en-sk |
 | 10463 | Dinosaur Spidey-Rex vs. Green Goblin | 19.99 EUR | en-sk |
 | 10468 | Tractor and Market | 19.99 EUR | en-sk |
 | 10479 | Colorful Creative Box | 19.99 EUR | en-sk |
-| 11216 | Grannies with Bingo and Bluey | 14.99 EUR | en-sk |
-| 21593 | First Night Adventure | 29.99 EUR | en-sk |
+| 11511 | Water Lilies | 29.99 USD | en-us |
+| 40953 | London Bus | 19.99 EUR | en-sk |
+| 66814 | Series 29 6 Pack | 29.94 USD | en-us |
+| 71052 | Series 29 | 3.99 EUR | en-sk |
+| 76469 | Dobby™ the Free Elf | 29.99 USD | en-us |
+| 77119 | Tails' Tornado-1 | 29.99 EUR | en-sk |
 | 854326 | The Mandalorian™ Key Chain | 5.99 EUR | en-sk |
 | 854329 | Dug the Dog Key Chain | 5.99 EUR | en-sk |
 | 854330 | Sunflower Lanyard Girl Key Chain | 5.99 EUR | en-sk |
@@ -793,15 +724,15 @@ _None_
 
 ## Availability changes
 
-- en-sk/10462: "" -> "Pre-order this item today, it will ship from 1 June 2026"
 - en-sk/11209: "" -> "Pre-order this item today, it will ship from 1 June 2026"
 - en-sk/11212: "" -> "Coming Soon on 1 August 2026"
+- en-sk/11216: "" -> "Pre-order this item today, it will ship from 1 June 2026"
 - en-sk/11221: "" -> "Pre-order this item today, it will ship from 1 June 2026"
 - en-sk/11506: "" -> "Available now"
-- en-us/11511: "" -> "Coming Soon on June 1, 2026"
 - en-sk/11514: "" -> "Coming Soon on 1 June 2026"
 - en-sk/21582: "" -> "Pre-order this item today, it will ship from 1 August 2026"
 - en-sk/21592: "" -> "Pre-order this item today, it will ship from 1 June 2026"
+- en-sk/21593: "" -> "Pre-order this item today, it will ship from 1 June 2026"
 - en-sk/21598: "" -> "Pre-order this item today, it will ship from 1 June 2026"
 - en-sk/31383: "" -> "Coming Soon on 1 June 2026"
 - en-sk/31390: "" -> "Coming Soon on 1 June 2026"
@@ -811,7 +742,6 @@ _None_
 - en-sk/40881: "" -> "Available now"
 - en-sk/40923: "" -> "Pre-order this item today, it will ship from 1 June 2026"
 - en-sk/40924: "" -> "Coming Soon on 1 June 2026"
-- en-sk/40953: "" -> "Available now"
 - en-sk/40954: "" -> "Available now"
 - en-sk/42225: "" -> "Available now"
 - en-sk/42233: "" -> "Coming Soon on 1 August 2026"
@@ -835,8 +765,6 @@ _None_
 - en-sk/60492: "" -> "Coming Soon on 1 June 2026"
 - en-sk/60510: "" -> "Coming Soon on 1 September 2026"
 - en-sk/60512: "" -> "Pre-order this item today, it will ship from 1 June 2026"
-- en-us/66814: "" -> "Will ship in 60 days"
-- en-sk/71052: "" -> "Available now"
 - en-sk/71853: "" -> "Available now"
 - en-sk/71862: "" -> "Coming Soon on 1 June 2026"
 - en-sk/71863: "" -> "Pre-order this item today, it will ship from 1 June 2026"
@@ -845,10 +773,8 @@ _None_
 - en-sk/76331: "" -> "Available now"
 - en-sk/76332: "" -> "Available now"
 - en-sk/76333: "" -> "Available now"
-- en-us/76469: "" -> "Coming Soon on June 1, 2026"
 - en-sk/76475: "" -> "Pre-order this item today, it will ship from 1 June 2026"
 - en-sk/77079: "" -> "Pre-order this item today, it will ship from 1 June 2026"
-- en-sk/77119: "" -> "Pre-order this item today, it will ship from 1 August 2026"
 - en-sk/77258: "" -> "Available now"
 - en-sk/77260: "" -> "Pre-order this item today, it will ship from 1 June 2026"
 - en-sk/77261: "" -> "Pre-order this item today, it will ship from 1 June 2026"
@@ -858,46 +784,73 @@ _None_
 
 ## Summary
 
-- Counts per locale: {"en-sk":59,"en-us":4}
-- Total products: 63
-- Needs maintenance: no
+- Counts per locale: {"en-sk":57}
+- Total products: 57
+- Needs maintenance: yes
 - Previous run id: 25666030747
 
 ## Stats
 
-| locale | products | price range | average price | availability |
-|---|---:|---|---:|---|
-| en-sk | 59 | 3.99-29.99 EUR | 23.89 EUR | {"Pre-order this item today, it will ship from 1 June 2026":17,"Coming Soon on 1 August 2026":2,"Available now":18,"Coming Soon on 1 June 2026":14,"Pre-order this item today, it will ship from 1 August 2026":5,"Coming Soon on 1 September 2026":2,"Will be shipped by 25 May 2026":1} |
-| en-us | 4 | 14.99-29.99 USD | 26.23 USD | {"Pre-order this item today, it will ship from June 1, 2026":1,"Coming Soon on June 1, 2026":2,"Will ship in 60 days":1} |
+### en-sk
+
+- Products: 57
+- Price range: 4.99-29.99 EUR
+- Average price: 24.22 EUR
+- Availability:
+
+```json
+{
+  "Pre-order this item today, it will ship from 1 June 2026": 18,
+  "Coming Soon on 1 August 2026": 2,
+  "Available now": 16,
+  "Coming Soon on 1 June 2026": 14,
+  "Pre-order this item today, it will ship from 1 August 2026": 4,
+  "Coming Soon on 1 September 2026": 2,
+  "Will be shipped by 25 May 2026": 1
+}
+```
+
+### en-us
+
+- Products: 0
+- Price range: n/a
+- Average price: n/a
+- Availability:
+
+```json
+{}
+```
 
 ## Run info
 
-- Timestamp: 2026-05-21T07:20:59.068Z
-- Workflow run id: 26211526141
-- Commit sha: 27a3d3c356692122300ebeb55cf0f7338d3956cc
-- Strategy used: fetch
+- Timestamp: 2026-05-21T07:41:20.347Z
+- Workflow run id: 26212447160
+- Commit sha: 5fc7aa306d8ae33fe0647943feafa01075f6ed96
+- Strategy used: mixed
 
 ## Diagnostics
 
-- warnings: none
-- structure drift signals: none
+- warnings: fallback to Playwright due to suspicious fetch result
+- structure drift signals: missing product cards selector; very low parsed count (<3); unexpected DOM structure
 - source diagnostics:
-- en-sk: strategy=fetch, status=200, pages=14, parsed=240, bytes=17600427, rejection=none, errors=none
-- en-us: strategy=fetch, status=200, pages=13, parsed=226, bytes=15661856, rejection=none, errors=none
+- en-sk: strategy=fetch, status=200, pages=14, parsed=244, bytes=17530181, rejection=none, errors=none
+- en-us: strategy=playwright, status=403, pages=1, parsed=0, bytes=4271, rejection=captcha challenge, bot protection, errors=none
 
 ## Debug JSON
 
 ```json
 {
-  "structureLikelyChanged": false,
+  "structureLikelyChanged": true,
   "parsedItemCountPerLocale": {
-    "en-sk": 240,
-    "en-us": 226
+    "en-sk": 244,
+    "en-us": 0
   },
   "pagesScrapedPerLocale": {
     "en-sk": 14,
-    "en-us": 13
+    "en-us": 1
   },
-  "warnings": []
+  "warnings": [
+    "fallback to Playwright due to suspicious fetch result"
+  ]
 }
 ```
