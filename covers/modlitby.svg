@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#dceaf0"/>
+  <path d="M0 0 H1200 V520 C870 660 460 560 0 770 Z" fill="#f6efe7"/>
+  <path d="M1200 1600 H0 V1110 C330 1010 760 1120 1200 880 Z" fill="#b6c8d7"/>
+  <rect x="96" y="96" width="1008" height="1408" rx="44" fill="#eef6f8" stroke="#6d7f8b" stroke-width="4"/>
+  <g transform="translate(600 600)">
+    <ellipse cx="-78" cy="0" rx="58" ry="170" fill="#f4c99a" stroke="#7b5a3d" stroke-width="10" transform="rotate(-18)"/>
+    <ellipse cx="78" cy="0" rx="58" ry="170" fill="#f4c99a" stroke="#7b5a3d" stroke-width="10" transform="rotate(18)"/>
+    <rect x="-150" y="102" width="96" height="210" rx="44" fill="#e7b57d" stroke="#7b5a3d" stroke-width="10" transform="rotate(-18)"/>
+    <rect x="54" y="102" width="96" height="210" rx="44" fill="#e7b57d" stroke="#7b5a3d" stroke-width="10" transform="rotate(18)"/>
+    <path d="M-112 152 C-58 210 -36 250 -34 326" fill="none" stroke="#7b5a3d" stroke-width="14" stroke-linecap="round"/>
+    <path d="M112 152 C58 210 36 250 34 326" fill="none" stroke="#7b5a3d" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <text x="600" y="960" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-size="120" font-weight="700" fill="#23323b">Modlitby</text>
+  <text x="600" y="1078" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="42" fill="#33444d">zbierka modlitieb</text>
+</svg>

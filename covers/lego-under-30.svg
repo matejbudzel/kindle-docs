@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#f4b23d"/>
+  <path d="M0 0 H1200 V520 C860 670 440 540 0 760 Z" fill="#fff04a"/>
+  <path d="M1200 1600 H0 V1110 C370 1040 760 1120 1200 870 Z" fill="#164b8f"/>
+  <rect x="96" y="96" width="1008" height="1408" rx="44" fill="#f7c85b" stroke="#6f3f1f" stroke-width="4"/>
+  <g transform="translate(600 590)">
+    <g transform="translate(-175 -15)">
+      <rect x="-150" y="-98" width="300" height="216" rx="28" fill="#d61f2c" stroke="#7d1018" stroke-width="12"/>
+      <circle cx="-82" cy="-104" r="38" fill="#f04a52" stroke="#7d1018" stroke-width="10"/>
+      <circle cx="82" cy="-104" r="38" fill="#f04a52" stroke="#7d1018" stroke-width="10"/>
+      <circle cx="-82" cy="4" r="38" fill="#f04a52" stroke="#7d1018" stroke-width="10"/>
+      <circle cx="82" cy="4" r="38" fill="#f04a52" stroke="#7d1018" stroke-width="10"/>
+    </g>
+    <g transform="translate(190 0)">
+      <circle cx="0" cy="0" r="132" fill="#5bbf68" stroke="#176a34" stroke-width="14"/>
+      <path d="M-58 48 C-34 76 24 82 54 46 C80 16 58 -20 12 -34 L-16 -42 C-50 -52 -54 -82 -26 -102 C2 -122 44 -112 62 -80" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round"/>
+      <path d="M0 -132 L0 132" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+    </g>
+  </g>
+  <text x="600" y="910" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-size="104" font-weight="700" fill="#182536">LEGO under 30</text>
+  <text x="600" y="1032" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="42" fill="#1f2d39">catalogue</text>
+</svg>

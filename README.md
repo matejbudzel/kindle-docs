@@ -9,6 +9,7 @@ This repository is set up to convert Markdown files in `markdown/` into web-read
 3. GitHub Actions will:
    - install `pandoc`, `calibre`, and `imagemagick`
    - convert each `markdown/*.md` file to `dist/<filename>.html` and `dist/<filename>.epub`
+   - render `covers/<filename>.svg` to a JPEG EPUB cover when a matching cover exists
    - create `dist/<filename>-small.epub` for image-heavy EPUBs by downscaling embedded images to dithered grayscale JPEGs
    - convert each generated EPUB to `dist/<filename>.mobi` and `dist/<filename>.azw3`
    - generate `dist/index.html` with title names and direct links for all four formats
@@ -45,6 +46,7 @@ The script installs the same core conversion dependencies used in CI (`pandoc`, 
 - `\newpage` directives in Markdown are converted to EPUB page breaks via `scripts/epub_pagebreak.lua`.
 - Language metadata is set to `en-US`.
 - EPUB output includes `styles/ebook.css` to keep heading/paragraph spacing compact where supported.
+- EPUB output uses `covers/<filename>.svg` as a cover source when present. The workflow renders it to a JPEG cover before calling Pandoc.
 - Optional: if a Markdown file has YAML frontmatter with `title`, it is used as the display name in `index.html`.
 
 Example frontmatter:

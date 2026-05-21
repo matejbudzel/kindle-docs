@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#3b4c72"/>
+  <path d="M0 0 H1200 V560 C870 620 470 560 0 790 Z" fill="#243554"/>
+  <path d="M1200 1600 H0 V1110 C350 1010 780 1120 1200 850 Z" fill="#cfa08e"/>
+  <circle cx="920" cy="242" r="92" fill="#fff0bd" opacity="0.90"/>
+  <rect x="96" y="96" width="1008" height="1408" rx="44" fill="#526286" stroke="#c3cbe0" stroke-width="4"/>
+  <g transform="translate(600 540)">
+    <rect x="-250" y="62" width="520" height="150" rx="38" fill="#fff6e8" stroke="#30364a" stroke-width="12"/>
+    <rect x="-326" y="-40" width="140" height="250" rx="42" fill="#4d6589" stroke="#30364a" stroke-width="12"/>
+    <rect x="-180" y="8" width="170" height="92" rx="42" fill="#fff6e8" stroke="#30364a" stroke-width="10"/>
+    <circle cx="-118" cy="-42" r="54" fill="#f0bd86" stroke="#30364a" stroke-width="10"/>
+    <path d="M-12 22 C88 -20 190 8 268 66 L268 212 L-10 212 Z" fill="#8fd0d8" stroke="#30364a" stroke-width="12"/>
+    <rect x="-340" y="204" width="700" height="60" rx="28" fill="#30364a"/>
+    <rect x="-310" y="258" width="52" height="112" rx="20" fill="#30364a"/>
+    <rect x="252" y="258" width="52" height="112" rx="20" fill="#30364a"/>
+  </g>
+  <text x="600" y="1060" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-size="120" font-weight="700" fill="#fffaf1">Uspávanky</text>
+  <text x="600" y="1178" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="42" fill="#fff1dc">pesničky na dobrú noc</text>
+</svg>

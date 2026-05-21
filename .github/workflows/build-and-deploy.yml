@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'markdown/**'
+      - 'covers/**'
       - 'scripts/**'
       - 'styles/**'
       - '.github/workflows/build-and-deploy.yml'
@@ -37,16 +38,35 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p dist
+          mkdir -p dist/covers
           shopt -s nullglob
+          image_magick=(magick)
+          if ! command -v magick >/dev/null 2>&1; then
+            image_magick=(convert)
+          fi
 
           for file in markdown/*.md; do
             stem="$(basename "${file%.md}")"
+            cover_args=()
+            if [[ -f "covers/${stem}.svg" ]]; then
+              "${image_magick[@]}" -density 144 "covers/${stem}.svg" \
+                -resize 1200x1600! \
+                -background white \
+                -alpha remove \
+                -alpha off \
+                -quality 85 \
+                "dist/covers/${stem}.jpg"
+              cover_args=(--epub-cover-image="dist/covers/${stem}.jpg")
+            fi
+
             pandoc "$file" \
               --to=epub3 \
               --toc \
               --metadata=lang:en-US \
+              --epub-title-page=false \
               --lua-filter=scripts/epub_pagebreak.lua \
               --css=styles/ebook.css \
+              "${cover_args[@]}" \
               --output "dist/${stem}.epub"
 
             pandoc "$file" \
